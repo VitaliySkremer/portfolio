@@ -1,0 +1,22 @@
+.text {
+  display: inline-block;
+  transition-property: color, width;
+}
+.text:hover {
+  color: #0070f3;
+  cursor: pointer;
+}
+.text:hover::after {
+  width: 100%;
+}
+
+.text::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: #0070f3;
+  transition: width 0.2s ease;
+}
+
+/*# sourceMappingURL=Text.module.css.map */

@@ -1,0 +1,23 @@
+.work__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  transition-property: transform, box-shadow;
+  transition-timing-function: ease;
+  transition-duration: .2s;
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #0070f3;
+  }
+}
+
+.button {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}

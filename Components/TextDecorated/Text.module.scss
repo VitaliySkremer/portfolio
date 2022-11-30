@@ -1,0 +1,20 @@
+.text {
+  display: inline-block;
+  transition-property: color, width;
+  &:hover {
+    color: #0070f3;
+    cursor: pointer;
+  }
+  &:hover::after{
+    width: 100%;
+  }
+}
+
+.text::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: #0070f3;
+  transition: width .2s ease;
+}

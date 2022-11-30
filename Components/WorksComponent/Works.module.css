@@ -1,0 +1,13 @@
+.works__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+}
+.works__list_item {
+  min-height: 350px;
+}
+
+/*# sourceMappingURL=Works.module.css.map */

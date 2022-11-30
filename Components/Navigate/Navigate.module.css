@@ -1,0 +1,5 @@
+.navigate__item:not(:last-child) {
+  margin-right: 20px;
+}
+
+/*# sourceMappingURL=Navigate.module.css.map */
